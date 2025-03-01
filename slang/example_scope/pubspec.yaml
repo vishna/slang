@@ -1,0 +1,38 @@
+name: example_scope
+description: Example project using slang & copy_with_meta option
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  slang: ^4.4.0 # add this
+  slang_flutter: ^4.4.0 # add this
+  flutter_localizations: # add this
+    sdk: flutter
+  intl: any
+  # translation_scope
+  provider: ^6.1.2
+  equatable: ^2.0.7
+  flutter_bloc: ^9.0.0
+  json_editor_flutter: ^1.4.2
+  flutter_hooks: ^0.21.2
+  fsoft_diff_patch: ^0.1.1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.25.15
+#  build_runner: any
+#  slang_build_runner: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/i18n/de.i18n.json
+    - lib/i18n/en.i18n.json
+    - lib/i18n/fr_FR.i18n.json

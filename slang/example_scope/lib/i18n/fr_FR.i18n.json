@@ -1,0 +1,18 @@
+{
+  "mainScreen": {
+    "title": "Le titre français",
+    "counter": {
+      "one": "Vous avez appuyé une fois.",
+      "other": "Vous avez appuyé $n fois."
+    },
+    "tapMe": "Appuyez-moi"
+  },
+  "subScreen": {
+    "title": "Deuxième écran"
+  },
+  "locales(map)": {
+    "en": "Anglais",
+    "de": "Allemand",
+    "fr-FR": "Français"
+  }
+}
